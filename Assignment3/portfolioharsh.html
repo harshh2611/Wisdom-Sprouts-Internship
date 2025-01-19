@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(49, 45, 45);
+        box-sizing: border-box;
+      }
+      html{
+        scroll-behavior: smooth;
+        transition: .5s;
+      }
+      .navbar {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: gray;
+      }
+      .navlist {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 2rem;
+        list-style: none;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
+      .navlist a {
+        color: #fff;
+        margin-top: 10px;
+        text-decoration: none;
+      }
+      .navlist a:hover{
+        color: chartreuse;
+      }
+      .section1{
+        margin-top: 80px;
+        width: 100%;
+        height: 650px;
+        display: flex;
+      }
+      .left
+      {
+        width: 50%;
+        height: 650px;
+       
+      }
+      .left h3,h1,p,button{
+        margin-left: 100px;
+        margin-top: 20px;
+      }
+      .left h1{
+        color: #fff;
+        font-size: 2.5rem;
+      }
+      .left h3{
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      .left p{
+        color: #fff;
+        font-size: 1.2rem;
+      }
+      .left button{
+        color: black;
+        background-color: pink;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 2px 8px;
+        border-radius: 10px;
+      }
+
+      .right{
+        width: 50%;
+        height: 650px;
+      }
+      .right img{
+        width: 60%;
+        height: 60%;
+        margin:  100px 150px;
+        border-radius: 10%;
+        box-shadow: 10px 10px 10px orange;
+      }
+      .section2{
+        display: flex;
+        width: 100%;
+        height: 650px;
+        /* background-color: #000; */
+      }
+      
+      .left2
+      {
+        width: 50%;
+        height: 650px;
+      }
+      .left2 img{
+        width: 60%;
+        height: 60%;
+        margin:  100px 100px;
+        border-radius: 10%;
+        box-shadow: 10px 10px 10px blue;
+      }
+      .right2
+      {
+        width: 50%;
+        height: 650px;
+       
+      }
+      .right2 h1{
+        font-size: 2rem;
+        color: #fff;
+      }
+      .right2 p{
+        color: #fff;
+        font-size: 1.2rem;
+      }
+      .ranges{
+        margin-left: 100px;
+        margin-top: 100px;
+        color: #fff;
+        font-size: 1.5rem;
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=text]{
+        color: #000;
+        background-color: #fff;
+        font-size: 1rem;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        padding: 20px;
+      }
+      .container label{
+        color: #fff;
+        font-size: 1.4rem;
+      }
+      .container h3{
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+      }
+      .section4{
+        width: 100%;
+        height: 650px;
+        /* background-color: black;  */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 15px;
+        
+      }
+      .boxes{
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+        border: 5px solid palevioletred;        
+        background-color: antiquewhite;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10%;
+
+      }
+      .boxes:hover{
+        width: 310px;
+        height: 310px;
+      }
+      .servhead{
+        /* height: 100px; */
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+      }
+     #country{
+      /* color: #fff; */
+      background-color: #fff;
+      font-size: 1.1rem;
+     }
+     #subject{
+      background-color: #fff;
+     }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+          <li><a href="#sec1"  class="links">Home</a></li>
+          <li><a href="#sec2"  class="links">About Me</a></li>
+          <li><a href="#sec3"  class="links">Service</a></li>
+          <li><a href="#sec4"  class="links">Projects</a></li>
+          <li><a href="#sec5" class="links">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- section 1 ###########################################-->
+      <section class="section1" id="sec1">
+        <div class="left">
+            <h3>Hello I am <br> Harshvardhan Gaikwad</h3><br>
+            <h1>Full Stack Developer</h1><br>
+            <p>I am passionate and skilled web Developer  <br>
+              with several years of experience in the field <br>
+              of web developement.
+            </p>
+            <button>Hire Us</button>
+        </div>
+        <div class="right">
+          <img src="./profile.jpg" alt="">
+        </div>
+      </section>
+      
+      <!-- section 2 ########################################### -->
+      <section class="section2" id="sec2">
+        <div class="left2">
+          <img src="./dp.jpg" alt="">
+        </div>
+
+        <div class="right2">
+          <h1>About Me</h1><br>
+          <p>I am  pursuing Masters in  Computer Application<br>
+              At Sanjay Ghodawat University, kolhapur.
+          </p>
+          <div class="ranges">
+            <label for="html">HTML/CSS  : 80% </label><br>
+            <input type="range" name="html" value="80" id="" ><br>
+            <label for="html">javascript  : 90% </label><br>
+            <input type="range" name="html" value="0" id="" ><br>
+            <label for="html">Node.Js/Express  : 50% </label><br>
+            <input type="range" name="html" value="0" id="" ><br>
+            <label for="html">React  : 50% </label><br>
+            <input type="range" name="html" value="0" id="" ><br>          
+          </div>         
+        </div>
+        
+      </section>
+      <!-- ####################################################### -->
+      <section class="section5" id="sec3">
+        <div class="servhead">
+          <h1>Services/Skills :</h1>
+        </div>
+      </section>
+      <!-- section 4 ###########################################-->
+<section class="section4" id="sec4">
+  
+  <div class="boxes">html/css</div>
+  <div class="boxes">javascript</div>
+  <div class="boxes">React</div>
+  <div class="boxes">Node</div>
+  <div class="boxes">MongoDB</div>
+  <div class="boxes">C# .Net</div>
+  <div class="boxes">Java</div>
+  <div class="boxes">GitHuB</div>
+</section>
+      <!-- section 3 ###########################################-->
+      <section class="section3" id="sec5">   
+      <div class="container">
+        <h3>Contact Form</h3>      
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India" selected>India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+  
+</body>
+</html>

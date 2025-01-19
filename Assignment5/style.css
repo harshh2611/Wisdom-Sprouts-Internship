@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+.nav{
+    width: 100%;
+    height: 85px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: sticky;
+    top: 0%;
+    
+}
+.nav ul li {   
+    list-style-type: none; 
+}
+.nav ul li a{
+    color: black;
+    text-decoration:none ;
+}
+.logoimg{
+    width: 188px;
+    height: 40px;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-image: url("./Assets/back_image.jpg");  
+    background-repeat: no-repeat;   
+    background-size: cover;
+    
+}
+.content{   
+    position: relative;
+    left: 500px;
+    top: 212px;
+    color: white;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 32px;
+}
+.content p{
+    font-size: 25px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: black;
+    font-weight: bold;
+}
+.btn1{
+    margin-right: 7px;
+}
+.btn2{
+    margin-left: 5px;
+}
+.doc-section{
+    position: absolute;
+    color:black;
+    width: 822px;
+    top: 698px;
+    left: 408px;
+    text-align: center;
+    font-size: 18px;
+}
+.doc-section h2{
+    padding: 32px;
+}
+.logo_search,.logo_user,.logo_bag{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.logo_search{
+    margin-left: 20px
+}
+.logo_bag{
+    margin-right: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150%;
+
+}
+.card-container1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 228%;
+}
+.card{
+    width: 338px;
+
+    height: 338px;
+    margin: 20px;
+}
+.card-img{
+    width: 338px;
+    height: 338px;
+}
+.span{
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    padding: 8px 15px;
+    background-color: white ;
+    /* left: 8%; */
+    width: 123px;
+    text-align: center;
+    z-index: 1;
+}
+.s1{
+    margin-left: 94px;
+    width: 99px;
+    padding: 5px;
+}
+
+.s2{
+
+        width: 115px;
+        margin-left: 66px;
+        padding: 5px;
+    }
+    .s3{
+        width: 168px;
+    padding: 5px;
+    margin-left: 71px;
+    }
+    .s4
+    {
+        width: 198px;
+        margin-left: 55px;
+        padding: 5px;
+    }
+    .card-img:hover{
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1.02); /* Safari 3-8 */
+        transform: scale(1.02); 
+      opacity: 0.9;
+    }   
+    .other{
+        border: 2px solid white;
+       color: black;
+        position: absolute;
+        top: 214%;
+        left: 41%;
+    }
+    .card-container1 .card .desc p{
+        font-size: small;
+        text-align: center;
+    }
+    .card-container1 .card .desc .price{
+        padding: 2px;
+    }
+    .card-container1 .card .desc{
+        margin-top: 10px;
+    }
+    .map img{
+
+        width: -webkit-fill-available;
+    }
+    .map img{
+        position: absolute;
+        top: 304%;
+    }
+    .map-section{
+        padding: 30px;
+        width: 413px;
+        height: 242px;
+        color: black;
+        z-index: 1;
+        position: absolute;
+        top: 318%;
+        left: 45px;
+        background-color: white;
+        font-size: 14px;
+    }
+    .map-btn{
+        margin-top: 18px;
+        padding: 7px;
+        width: 168px;
+        background-color: black;
+        color: white;
+    }
+    .para{
+        position: absolute;
+    top: 384%;
+    width: 1420px;
+    height: 670px;
+    padding-left: 44px;
+    }
+    .para h2{
+        font-size: 30px;
+    }
+    .para p{
+        font-size: 15px;
+    }
+    .card-container2{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+          top: 484%;
+    width: 100%;
+    } 
+    .desc-img{
+        width: 457px;
+        height: 310px;
+        padding-left: 2px;
+    }
+    .card-container2 .card .desc h2{
+        text-align: center;
+    }
+    .card-container2 .card .desc p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .foot{
+        z-index: 1;
+        position: absolute;
+        top: 560%;
+        font-size: 14px;
+        display: flex;
+        width: 10;
+    }
+    .foot li{
+        list-style: none;
+    }
+    .foot .icon{
+        margin-top: 5px;
+        font-size: 30px;
+        padding: 4px;
+    }
+    .foot li .icon1{
+        font-size:18px;
+    }
