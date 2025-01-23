@@ -1,0 +1,112 @@
+.back{
+    background-image: url('images/back.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.maincard{
+    display: flex;
+    padding: 20px;
+}
+.lol{
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 24px;
+}
+.a1logo{
+    margin-left: 12%;
+    letter-spacing: 3px;
+    color: wheat;
+    font-weight: bold;
+}
+.lia{
+    margin-right: 50px;
+}
+.anav{
+    color: white;
+}
+.cd1{
+    background-color: white;
+    width: 52%;
+    position: absolute;
+    border-radius: 50px;
+    left: 24%;
+    top: 83%;
+    box-shadow: 5px 5px 8px gray
+}
+.cardimg{
+    width: 95px;
+    margin-left: 90px;
+    
+}
+.imgcard{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+.btnsee{
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.background2{
+    background-image: url('images/back2.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.abcd{
+    width: 100%;
+    height: 100px;
+    /* background-color: cyan; */
+}
+.sendmail{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(228, 222, 222);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+ .emimg {
+    width: 70%;
+    height: 300px;
+    /* background-color: gray; */
+    position: absolute;
+    border-radius: 25px;
+    
+}
+.emimg img{
+    border-radius: 25px;
+    height: 300px;
+    width: 30%;
+
+}
+.emcontent{
+    color: black;
+    margin-left: 150px;
+}
+.emcontent button{
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-left: -100px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
+.emcontent input{
+    border-radius: 25px;
+    /* padding: 30px; */
+
+}
+#myem{
+    padding: 10px 35px;
+    width: 400px;
+    color: black;
+}
